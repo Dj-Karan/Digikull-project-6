@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main-div{
+    background-image: url(images/backcover.svg);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: 67% 165%;
+    height: 100vh;
+}
+.vector-img{
+    height: 100px;
+    position: absolute;
+    left: 550px;
+    top: 400px;
+}
+.vector-dot{
+    position: absolute;
+    left: 600px;
+    top: 400px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+.nav-items{
+    display: flex;
+    gap: 35px;
+    color: darkblue;
+}
+.intro{
+    height: 550px;
+    position: absolute;
+    top: 70px;
+    right: 235px;
+}
+.left-section{
+    padding: 100px 50px;
+}
+h1{
+    font-size: 80px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkblue;
+}
+h4{
+    padding: 50px 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(166, 204, 226);
+}
+.learn-more-btn{
+    color: white;
+    font-weight: 700;
+    padding: 10px 40px;
+    border-radius: 20px;
+    border-style: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(#FD297A, #9424F0);
+}
+.signin-btn{
+    color: white;
+    font-weight: 700;
+    padding: 0px 30px;
+    border-radius: 20px;
+    border-style: none;
+    background-image: linear-gradient(#FD297A, #9424F0);
+}
